@@ -1,1 +1,1 @@
-"# sublimetext-mulesoft-package" 
+# sublimetext-mulesoft-package
