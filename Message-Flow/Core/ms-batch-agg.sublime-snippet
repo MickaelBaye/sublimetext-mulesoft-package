@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<batch:aggregator doc:name="${1:Batch Aggregator}" doc:id="$2" size="${3:100}">
+	$4
+</batch:aggregator>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-batch-agg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Mulesoft Batch Aggregator</description>
+</snippet>

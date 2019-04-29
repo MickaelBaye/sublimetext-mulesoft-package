@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<try doc:name="${1:Try}" doc:id="$2" >
+	$3
+	<error-handler >
+		$4
+	</error-handler>
+</try>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-try</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Try</description>
+</snippet>

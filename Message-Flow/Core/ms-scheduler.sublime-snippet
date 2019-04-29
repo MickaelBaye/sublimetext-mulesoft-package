@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<scheduler doc:name="${1:Scheduler}" doc:id="$2" >
+	<scheduling-strategy >
+		$3
+	</scheduling-strategy>
+</scheduler>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-scheduler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Scheduler</description>
+</snippet>

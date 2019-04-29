@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<error-handler name="${1:globalError_Handler}" doc:id="$2" >
+	$3
+</error-handler>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-error-handler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Error Handler</description>
+</snippet>

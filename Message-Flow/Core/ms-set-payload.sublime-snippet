@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<set-payload value="${1:#[payload]}" doc:name="${2:Set Payload}" doc:id="$3" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-set-payload</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Set Payload</description>
+</snippet>

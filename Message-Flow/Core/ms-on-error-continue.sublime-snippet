@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<on-error-continue enableNotifications="${1:true}" logException="${2:true}" doc:name="${3:On Error Continue}" doc:id="$4" >
+	$5
+</on-error-continue>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-on-error-continue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft On Error Continue</description>
+</snippet>

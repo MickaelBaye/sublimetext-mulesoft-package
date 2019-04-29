@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<configuration-properties doc:name="${1:Configuration properties}" doc:id="$2" file="$3" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-conf-properties</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Configuration Properties</description>
+</snippet>

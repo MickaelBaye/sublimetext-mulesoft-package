@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<choice doc:name="${1:Choice}" doc:id="$2" >
+	<when expression="$3">
+		$4
+	</when>
+	<otherwise >
+		$5
+	</otherwise>
+</choice>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-choice</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Choice</description>
+</snippet>

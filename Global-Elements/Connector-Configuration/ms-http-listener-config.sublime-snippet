@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<http:listener-config name="${1:HTTP_Listener_config}" doc:name="${2:HTTP Listener config}" doc:id="$3" basePath="${4:/basepath}" >
+	<http:listener-connection host="${5:0.0.0.0}" port="${6:8081}" />
+</http:listener-config>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-http-listener-config</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft HTTP Listener Configuration</description>
+</snippet>

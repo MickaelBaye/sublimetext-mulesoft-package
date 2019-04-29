@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<scatter-gather doc:name="${1:Scatter-Gather}" doc:id="$2" >
+	<route >
+		$3
+	</route>
+</scatter-gather>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-scatter-gather</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Scatter-Gather</description>
+</snippet>

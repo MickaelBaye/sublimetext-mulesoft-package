@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<flow-ref doc:name="${1:Flow Reference}" doc:id="$2" name="$3" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-flow-ref</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Flow Reference</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<logger level="${1:INFO}" doc:name="${2:Logger}" doc:id="$3" message="$4" category="$5"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-logger</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.xml</scope> -->
+	<!-- Optional: Description to show in the menu -->
+    <description>Mulesoft Logger</description>
+</snippet>

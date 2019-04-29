@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<remove-variable doc:name="${1:Remove Variable}" doc:id="$2" variableName="$3"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-remove-var</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Remove Variable</description>
+</snippet>

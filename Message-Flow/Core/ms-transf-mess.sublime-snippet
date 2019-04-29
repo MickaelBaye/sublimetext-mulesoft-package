@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ee:transform doc:name="${1:Transform Message}" doc:id="$2">
+	<ee:message>
+		<ee:set-payload>$3
+		</ee:set-payload>
+	</ee:message>
+</ee:transform>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-transform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft Transform Message</description>
+</snippet>

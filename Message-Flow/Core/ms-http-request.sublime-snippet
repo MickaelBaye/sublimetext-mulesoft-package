@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<http:request method="${1:GET}" doc:name="${2:Request}" doc:id="$3" config-ref="${4:HTTP_Request_configuration}" path="$5" target="$6" targetValue='$7'>
+	<http:uri-params>$8
+	</http:uri-params>
+</http:request>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-http-request</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft HTTP Request</description>
+</snippet>

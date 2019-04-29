@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<batch:job jobName="${1:Batch_Job}" doc:id="$2" maxFailedRecords="${3:0}" jobInstanceId="$4">
+	<batch:process-records>
+		$5
+	</batch:process-records>
+	<batch:on-complete>
+		
+	</batch:on-complete>
+</batch:job>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-batch-job</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Mulesoft Batch Job</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-xmlns-ee</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft XMLNS EE</description>
+</snippet>

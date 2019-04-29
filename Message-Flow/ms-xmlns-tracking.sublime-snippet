@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ms-xmlns-tracking</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>MuleSoft XMLNS Tracking</description>
+</snippet>
